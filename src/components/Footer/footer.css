@@ -1,0 +1,125 @@
+
+footer {
+    padding-top: var(--SectionPadding);
+    padding-bottom: var(--SectionPadding);
+    margin-top: var(--SectionPadding);
+    color: white;
+    background-image: linear-gradient(to right, #0f7bd3a9 ,#0F7AD3);
+}
+footer .contact .location {
+    display: flex;
+    align-items: center;
+}
+footer .contact .location span,
+footer .contact .email ,
+footer .contact  .phone{
+    display: inline-block;
+    font-size: 13px;
+    width: 100%;
+}
+footer .contact .location span,
+footer .contact .email a,
+footer .contact  .phone a {
+    color: white !important;
+}
+footer .head-foot {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+footer .head-foot span {
+    color: white;
+    font-size: 18px;
+}
+footer .head-foot a {
+    margin-left: 20px;
+    color: var(--mainColor);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+footer .foot {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 2rem;
+}
+@media (max-width:600px) {
+    footer .foot {
+        gap: 1rem;
+    }
+}
+footer a {
+    color: inherit;
+}
+
+footer .box .form {
+    position: relative;
+}
+footer .box .form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    width: 280px;
+    position: relative;
+}
+footer .box .form input::placeholder {
+    color: #ccc;
+}
+footer .box .form input:focus {
+    outline: none;
+}
+footer .box .icon {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    padding: 13px 15px;
+    font-size: 18px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+
+@media (max-width:768px) {
+    footer .box {
+        margin-bottom: 30px;
+    }
+}
+footer .box .contact > div {
+    margin: 15px 0;
+}
+footer .box .contact img {
+    margin-right: 20px;
+}
+footer .copyright ul {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+@media (max-width:767px) {
+    footer .copyright ul {
+        justify-content: center;
+    }
+}
+footer ul li {
+    margin: 15px 0;
+}
+footer .copyright ul li {
+    margin: 15px 0;
+}
+footer .copyright ul li a {
+    margin-left: 15px;
+}
+footer input {
+    caret-color: white;
+}
+footer input::placeholder {
+    color: white;
+}

@@ -1,0 +1,32 @@
+.team {
+    padding-top: var(--SectionPadding);
+    padding-bottom: var(--SectionPadding);
+}
+.team .team-content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+    grid-gap: 10px;
+}
+.team .team-content .box {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 4px 15px 0px #F6F6F6;
+}
+.team .team-content .box .image {
+    text-align: center;
+}
+.team .team-content .box  img {
+    max-width: 100%;
+    width: 100%;
+}
+.team .team-content .box span {
+    font-size: 15px;
+    margin: 15px 0;
+    display: block;
+}
+.team .team-content .box p {
+    color: #6A6A6A;
+    font-size: 14px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+
+.nav-link {
+    color: var(--mainColor);
+    transition: .3s;
+    margin-right: 1.5rem;
+}
+.nav-link:hover {
+    color: var(--subColor);
+}
+.support {
+    margin-left: 20px;
+    border: 1px solid var(--mainColor);
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    position: relative;
+}
+@media (max-width:600px) {
+    .support {
+        display: none;
+    }
+}
+img.logo {
+    width: 60px;
+}

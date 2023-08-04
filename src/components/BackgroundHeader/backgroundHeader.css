@@ -1,0 +1,23 @@
+.header-page-title {
+    padding-top: var(--SectionPadding);
+    padding-bottom: var(--SectionPadding);
+    position: relative;
+}
+.header-page-title .main-heading {
+    width: 100%;
+}
+.header-page-title .main-heading h2 {
+    color: #282828;
+}
+.header-page-title > div {
+    position: absolute;
+}
+.header-page-title img {
+    max-width: 100%;
+}
+.header-page-title .left {
+    left: 50px;
+}
+.header-page-title .right {
+    right: 50px;
+}

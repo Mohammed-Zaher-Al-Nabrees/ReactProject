@@ -1,0 +1,48 @@
+/*  */
+.facts {
+    margin-top: var(--SectionPadding);
+    margin-bottom: var(--SectionPadding);
+    padding-top: var(--SectionPadding);
+    padding-bottom: var(--SectionPadding);
+    background-color: #FBFBFF;
+}
+
+.facts .content-facts {
+    margin-top: 80px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    grid-gap: 10px;
+}
+.facts .content-facts .item {
+    background-color: white;
+    box-shadow: 2px 4px 15px 0px #F6F6F6;
+    padding: 10px;
+    position: relative;
+}
+.facts .content-facts .item::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    border-radius: 3px;
+    bottom: 0;
+    width: 70%;
+}
+.facts .content-facts .item:first-child::after {
+    background-color: #67DEDE;
+}
+.facts .content-facts .item:nth-child(2)::after {
+    background-color: #0F7AD3;
+}
+.facts .content-facts .item:nth-child(3)::after {
+    background-color: #27A1BC;
+}
+.facts .content-facts .item h3 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.facts .content-facts .item span {
+    color: rgba(0, 0, 0, .6);
+}

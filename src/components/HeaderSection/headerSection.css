@@ -1,0 +1,15 @@
+.main-heading {
+    text-align: center;
+}
+.main-heading h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--mainColor);
+}
+.main-heading p {
+    color: rgba(0, 0, 0, .6);
+    max-width: 360px;
+    margin: auto;
+    line-height: 1.8;
+}

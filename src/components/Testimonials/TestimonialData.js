@@ -1,0 +1,11 @@
+import IMG1 from '../../assets/images/customer-01.png'
+import IMG2 from '../../assets/images/customer-02.png'
+import IMG3 from '../../assets/images/customer-03.png'
+
+const testimonialData = [
+    {id:'testimonial__item__01'  , name:'Mhmd Zaher', img: IMG1 , desc : 'As a freelancer, my online portfolio is the key to landing new projects and establishing credibility. After trying various platforms, I discovered Protofloio, and I\'ve never looked back! This platform not only provides me with an excellent way to display my projects but also helps me track engagement and gather valuable insights. The responsive design ensures my portfolio looks stunning on all devices, which is essential in today\'s mobile-driven world. Protofloio has streamlined my portfolio management, giving me more time to focus on what I love – creating outstanding work for my clients'
+},
+    {id:'testimonial__item__02'  , name:'Lama Zaher', img: IMG2 , desc : `I've been in the creative industry for over a decade, and I must say, Protofloio is one of the most intuitive and feature-rich portfolio platforms I've come across. It caters perfectly to professionals like me who value aesthetics and seamless navigation. The ability to curate and present my diverse projects effortlessly has made a significant impact on how potential clients perceive my work. Protofloio has undoubtedly elevated the way I showcase my expertise, and I'm thrilled with the positive responses I've received`},
+    {id:'testimonial__item__03' , name:'Ahmed Zaher' , img: IMG3 , desc :`Protofloio has been an absolute game-changer for my creative career! As a designer, showcasing my projects in a visually appealing and organized manner is crucial. This platform has exceeded my expectations by providing a user-friendly interface and customizable templates that truly reflect my unique style. Thanks to Protofloio, my portfolio now stands out from the crowd, and I've received numerous compliments from potential clients and employers. Highly recommended!`},
+]
+export default testimonialData;

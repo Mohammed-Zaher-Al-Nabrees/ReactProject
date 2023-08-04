@@ -1,0 +1,74 @@
+/*  */
+.services {
+    padding-top: var(--SectionPadding);
+    padding-bottom: var(--SectionPadding);
+}
+.services .content-services {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 10px;
+}
+@media (max-width:768px) {
+    .services .content-services {
+        text-align: center;
+    }
+}
+.services .content-services .box {
+    
+}
+.services .content-services .box .image {
+    background-color: #F7F7F7;
+    padding: 10px;
+    text-align: center;
+}
+.services .content-services .box .image img {
+    max-width: 100%;
+    width: 210px;
+    height: 192px;
+}
+.services .content-services .box h3 {
+    color: #282828;
+    margin-top: 10px;
+}
+.services .content-services .box ul li {
+    position: relative;
+    color: rgba(0, 0, 0, .6);
+    margin: 10px 0;
+}
+.services .content-services .box ul li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+@media (max-width:768px) {
+    .services .content-services .box ul li::before {
+        display: none;
+    }
+}
+.services .content-services .box ul li:first-child::before {
+    background-color: #305FC2;
+}
+.services .content-services .box ul li:nth-child(2)::before,
+.services .content-services .box ul li:nth-child(7)::before  {
+    background-color: #F79D56;
+}
+.services .content-services .box ul li:nth-child(3)::before,
+.services .content-services .box ul li:nth-child(6)::before {
+    background-color: #43CEA2;
+}
+.services .content-services .box ul li:nth-child(4)::before {
+    background-color: #32B2B2;
+}
+.services .content-services .box ul li:nth-child(5)::before {
+    background-color: #0F7AD3;
+}
+.services .content-services a {
+    color: var(--mainColor);
+}

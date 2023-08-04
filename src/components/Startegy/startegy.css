@@ -1,0 +1,62 @@
+/*  */
+.strategy {
+    padding-top: var(--SectionPadding);
+    padding-bottom: var(--SectionPadding);
+}
+.strategy .strategy-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+.strategy .strategy-content .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    box-shadow: 2px 4px 15px 0px #F6F6F6;
+    padding: 50px 20px;
+    height: 350px;
+    border-radius: 20px;
+}
+@media (min-width:768px) {
+    .strategy .strategy-content .box:nth-child(2) ,
+    .strategy .strategy-content .box:nth-child(4){
+        transform: translateY(80px);
+    }
+}
+.strategy .strategy-content .box .num {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -50px;
+}
+.strategy .strategy-content .box .num.one {
+    color: #0F7AD3;
+    background-color: #E5F4FD;
+}
+.strategy .strategy-content .box .num.two {
+    color: #F79D56;
+    background-color: #FFF4EC;
+}
+.strategy .strategy-content .box .num.three {
+    color: #43CEA2;
+    background-color: #EDFDFF;
+}
+.strategy .strategy-content .box .num.four {
+    color: #9C9493;
+    background-color: #EEEEEE;
+}
+.strategy .strategy-content .box h3 {
+    margin: 15px 0;
+    color: #3F3F3F;
+}
+.strategy .strategy-content .box p {
+    color:#6a6a6ac8 ;
+}
